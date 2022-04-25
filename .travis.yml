@@ -12,3 +12,4 @@ before_script:
 - psql -U postgres -d garment_app -a -f ./sql/data.sql
 
 services: 
+- postgresql
