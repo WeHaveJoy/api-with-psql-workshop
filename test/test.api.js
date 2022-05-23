@@ -191,7 +191,6 @@ describe('The Garment API', function () {
 
 		// write your code above this line
 		const expectedResult = [
-			
 			{
 				gender: 'Male',
 				count: '15'
@@ -204,7 +203,6 @@ describe('The Garment API', function () {
 				gender: 'Unisex',
 				count: '4'
 			}
-			
 		]
 		assert.deepStrictEqual(expectedResult, garmentsGrouped.data)
 	});
