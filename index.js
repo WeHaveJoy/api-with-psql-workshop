@@ -22,9 +22,9 @@ const db = pgp(DATABASE_URL);
 })()
 API(app, db);
 
+
 const PORT = process.env.PORT || 4017;
 
-// API routes to be added here
 
 app.listen(PORT, function () {
 	console.log(`App started on port ${PORT}`)
